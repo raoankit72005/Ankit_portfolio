@@ -1,0 +1,2 @@
+import {readdir,readFile} from 'node:fs/promises';import {execFileSync}from'node:child_process';import{validate}from'../lib/schema.js';
+for(const dir of ['public','api','lib','scripts','test'])for(const file of await readdir(dir))if(/\.(js|mjs)$/.test(file))execFileSync(process.execPath,['--check',dir+'/'+file]);validate(JSON.parse(await readFile('content/portfolio.json','utf8')));JSON.parse(await readFile('vercel.json','utf8'));console.log('All JavaScript syntax, content, and deployment JSON checked.');
