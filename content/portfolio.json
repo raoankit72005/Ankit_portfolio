@@ -4,8 +4,13 @@
     "role": "Computer Science student · ML engineering & research",
     "institution": "BIT Mesra · B.Tech CSE",
     "headline": "Learning deeply. Building from first principles.",
-    "bio": "I build machine learning projects and explore the ideas behind language models, one paper and implementation at a time.",
-    "interests": ["LLMs", "Generative AI", "ML research", "PyTorch"],
+    "bio": "I'm Ankit, a Computer Science student at BIT Mesra with a curiosity for how intelligent systems learn. My interests span deep learning in biology, large language models, and generative models. I explore these ideas through research papers and hands-on PyTorch implementations, with the goal of contributing to AI research.",
+    "interests": [
+      "LLMs",
+      "Generative AI",
+      "ML research",
+      "PyTorch"
+    ],
     "photo": "",
     "github": "https://github.com/raoankit72005",
     "linkedin": "",
@@ -16,8 +21,47 @@
   "publications": [],
   "articles": [],
   "projects": [
-    {"id":"llm-from-scratch","title":"LLM from Scratch","category":"Language models","summary":"Exploring language model fundamentals through attention implementations in PyTorch.","body":"Building and understanding language model components from first principles. This project connects attention equations with working PyTorch implementations.","tags":["PyTorch","Attention","Notebooks"],"code":"https://github.com/raoankit72005/LLM_from_Scratch","demo":""},
-    {"id":"paperlens","title":"PaperLens","category":"Retrieval","summary":"A research paper search project exploring hybrid retrieval, transformer retrieval, and reranking.","body":"A project exploring lexical and semantic retrieval for research papers, followed by reranking. Evaluation notes and verified results can be added here.","tags":["NLP","Retrieval","Reranking"],"code":"","demo":""},
-    {"id":"campus-ai","title":"Campus AI Assistant","category":"Retrieval","summary":"An academic assistant project built around document retrieval, summaries, and study questions.","body":"An academic assistant in development, with document processing, chunking, PostgreSQL and pgvector retrieval, summaries, and study questions.","tags":["RAG","pgvector","PDF processing"],"code":"","demo":""}
+    {
+      "id": "llm-from-scratch",
+      "title": "LLM from Scratch",
+      "category": "Language models",
+      "summary": "Exploring language model fundamentals through attention implementations in PyTorch.",
+      "body": "Building and understanding language model components from first principles. This project connects attention equations with working PyTorch implementations.",
+      "tags": [
+        "PyTorch",
+        "Attention",
+        "Notebooks"
+      ],
+      "code": "https://github.com/raoankit72005/LLM_from_Scratch",
+      "demo": ""
+    },
+    {
+      "id": "paperlens",
+      "title": "PaperLens",
+      "category": "Retrieval",
+      "summary": "A research paper search project exploring hybrid retrieval, transformer retrieval, and reranking.",
+      "body": "A project exploring lexical and semantic retrieval for research papers, followed by reranking. Evaluation notes and verified results can be added here.",
+      "tags": [
+        "NLP",
+        "Retrieval",
+        "Reranking"
+      ],
+      "code": "",
+      "demo": ""
+    },
+    {
+      "id": "campus-ai",
+      "title": "Campus AI Assistant",
+      "category": "Retrieval",
+      "summary": "An academic assistant project built around document retrieval, summaries, and study questions.",
+      "body": "An academic assistant in development, with document processing, chunking, PostgreSQL and pgvector retrieval, summaries, and study questions.",
+      "tags": [
+        "RAG",
+        "pgvector",
+        "PDF processing"
+      ],
+      "code": "",
+      "demo": ""
+    }
   ]
 }
